@@ -5,7 +5,6 @@ async function main() {
   const [deployer] = await ethers.getSigners();
 
   // Prepare initial admin addresses (can be just the deployer, or more)
-  // You can add more addresses as needed!
   const initialAdmins = [deployer.address];
 
   console.log("Deploying with deployer:", deployer.address);
